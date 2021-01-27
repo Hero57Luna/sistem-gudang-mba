@@ -24,13 +24,13 @@
             <?php
             if(isset($_GET['pesan'])) {
                 if($_GET['pesan'] == 'gagal') {
-                    echo "<div class='alert alert-danger'>Username atau Password Anda Salah</div>";
+                    echo "<div class='alert alert-danger'>Username atau Password Anda Salah.</div>";
                 }
                 elseif($_GET['pesan'] == 'logout') {
-                    echo "<div class='alert alert-info'>Berhasil Keluar.</div>";
+                    echo "<div class='alert alert-info'>Anda telah logout.</div>";
                 }
                 elseif($_GET['pesan'] == 'belum_login') {
-                    echo "<div class='alert alert-warning'>Mohon Login Terlebih Dahulu</div>";
+                    echo "<div class='alert alert-warning'>Mohon Login Terlebih Dahulu.</div>";
                 }
             }
             ?>

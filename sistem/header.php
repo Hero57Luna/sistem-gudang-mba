@@ -37,8 +37,9 @@
                     <a class="nav-link" href="index.php"><i class="fa fa-fw fa-car"></i> Data Supplier</a>
                 </li>
             </ul>
+            <a class="btn btn-danger btn-sm my-2 my-sm-0" href="logout.php"><i class="fas fa-fw fa-sign-out-alt"></i>
+                Logout</a>
         </div>
     </nav>
-
 </body>
 </html>
